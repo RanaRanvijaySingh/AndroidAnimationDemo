@@ -9,7 +9,7 @@ Step 2: Create the layout .
 Step 3: Create the class to use the animation object .
 
 ____________________________________________________________________________________________________________________________________________________________
-Step 1: Create the xml file with the animation.
+####Step 1: Create the xml file with the animation.
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android"
     android:fillAfter="true" >
@@ -22,7 +22,7 @@ Step 1: Create the xml file with the animation.
 
 </set>
 ____________________________________________________________________________________________________________________________________________________________
-Step 2: Create the layout .
+####Step 2: Create the layout .
 
     <TextView
         android:id="@+id/textViewMessage"
@@ -37,7 +37,7 @@ Step 2: Create the layout .
         android:text="Start" />
         
 __________________________________________________________________________________________________________________________________________________________
-Step 3: Create the class to use the animation object .
+####Step 3: Create the class to use the animation object .
 
 	Animation animationFadeIn;
 
